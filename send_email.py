@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO,
 
 def send_email(ranking):
     sender = 'kaitherinayrd@gmail.com'
-    receivers = ['kaitherinayrd@gmail.com', 'darik93@yandex.ru']
+    receivers = ['kaitherinayrd@gmail.com']
     password = 'tgntpmbqirssykzl'
 
     subject = 'LeetCode Change'
