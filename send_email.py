@@ -16,7 +16,7 @@ def send_email(ranking):
     subject = 'LeetCode Change'
     body = f'Your LeetCode ranking changed! You\'re now are at {ranking}th place!'
 
-    logging.info(f'ready to send an email to {receivers[0], receivers[1]} with this text: {body}')
+    logging.info(f'ready to send an email to {receivers} with this text: {body}')
 
     message = MIMEMultipart()
     message['From'] = sender
